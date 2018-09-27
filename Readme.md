@@ -7,8 +7,8 @@ a pseudo-random number generator. It is written in Ada.
 
 `lottery <i> <k>`
 
-Draw i out of k numbers. The flag -c <n> will repeat the drawing
-<n> times.
+Draw i out of k numbers. The flag `-c <n>` will repeat the drawing
+`<n>` times.
 
 ## Example
 
