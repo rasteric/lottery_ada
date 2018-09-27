@@ -1,0 +1,30 @@
+project Lottery is
+
+   for Main use ("lottery.adb");
+   for Source_Files use ("draw.adb", "lottery.adb", "draw.ads", "info.ads", "info.adb");
+
+   package Make is
+      for Makefile use "../../makefile";
+   end Make;
+
+   package Ide is
+      for Vcs_Kind use "Git";
+      for Documentation_Dir use "docs";
+   end Ide;
+
+   package Builder is
+      for Default_Switches ("ada") use ("-s");
+      for Switches ("lottery.ads") use ("-s");
+      for Switches ("draw.ads") use ("-s");
+      for Switches ("draw.adb") use ("-s", "-O3", "-fomit-frame-pointer", "-mfpmath=sse", "-unroll_loops");
+   end Builder;
+
+   package Linker is
+      for Default_Switches ("ada") use ("-s");
+   end Linker;
+
+   for Exec_Dir use "bin";
+   for Object_Dir use "build";
+
+end Lottery;
+

@@ -1,0 +1,11 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+# build directory
+build
+
+# backups
+*~
