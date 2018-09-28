@@ -29,5 +29,5 @@ Draws 5 numbers out of the numbers between 1..50 (both inclusive).
 
 ## Future Plans
 
-This repository is in final status and no changes will be made unless someone finds a bug.
+This repository is in final status and no changes are planned unless someone finds a bug.
 
