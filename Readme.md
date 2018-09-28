@@ -16,6 +16,10 @@ Draw i out of k numbers. The flag `-c <n>` will repeat the drawing
 
 Draws 5 numbers out of the numbers between 1..50 (both inclusive).
 
+## Future Plans
+
+This repository is in final status and no changes will be made unless someone finds a bug.
+
 ## Installation
 
 A makefile and a GNAT GPS project file is provided. Using the makefile,
