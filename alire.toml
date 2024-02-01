@@ -1,0 +1,7 @@
+name = "lottery_ada"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Erich H. Rast"]
+maintainers = ["Erich H. Rast <erich@snafu.de>"]
+maintainers-logins = ["rasteric"]

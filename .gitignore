@@ -9,3 +9,7 @@ build
 
 # backups
 *~
+/obj/
+/lib/
+/alire/
+/config/
